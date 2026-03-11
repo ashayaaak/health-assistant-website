@@ -311,15 +311,15 @@
         </div>
       </div>
 
-      <form action="https://form.relay.app/form/jVqwi-SsnkqAqDquLt2ILg" method="POST">
+      <form action="https://form.relay.app/form/jVqwi-SsnkqAqDquLt2ILg" method="POST" target="hidden_iframe">
         <div class="form-group">
           <label for="question">Your Health Question <span>*</span></label>
-          <textarea id="question" name="question" placeholder="e.g. I've been experiencing frequent headaches in the morning. What could be causing this and what should I do?" required></textarea>
+          <textarea id="question" name="Health Question" placeholder="e.g. I've been experiencing frequent headaches in the morning. What could be causing this and what should I do?" required></textarea>
         </div>
 
         <div class="form-group">
           <label for="email">Email Address <span>*</span></label>
-          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          <input type="email" id="email" name="User Email" placeholder="you@example.com" required />
         </div>
 
         <button type="submit" class="btn">
@@ -327,6 +327,7 @@
           Get Health Advice
         </button>
       </form>
+      <iframe name="hidden_iframe" style="display:none;"></iframe>
     </div>
 
     <!-- HOW IT WORKS -->
